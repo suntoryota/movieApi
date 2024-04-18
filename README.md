@@ -4,8 +4,6 @@ This is a Complete Backend Java / Maven / Spring Boot (version 3.2.4) applicatio
 
 ## About the Service
 
-To use this API, ensure you have a server running. The server URL is http://localhost:9090
-
 Here is what application demonstrates:
 - Setup DB Configuration
 - Uploading and Serving file at Backend

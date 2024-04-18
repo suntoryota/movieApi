@@ -26,11 +26,13 @@ public class LoggingAspect {
 		String methodName = pj.getSignature().getName();
 		String className = pj.getTarget().getClass().toString();
 		
-		Object[] array = pj.getArgs();
-		log.info("Inside " + className + "class " + methodName + "method with request : " + mapper.writeValueAsString(array));
-		
-		Object response = pj.proceed();
-		log.info("Inside " + className + "class " + methodName + "method with request : " + mapper.writeValueAsString(response));
-		return response;
+//		
+//		Object[] array = pj.getArgs();
+//		log.info("Inside " + className + "class " + methodName + "method with request : " + mapper.writeValueAsString(array));
+//		
+//		Object response = pj.proceed();
+//		log.info("Inside " + className + "class " + methodName + "method with request : " + mapper.writeValueAsString(response));
+//		return response;
+		return null;
 	}
 }
